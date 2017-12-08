@@ -17,6 +17,7 @@
            sync-j="8" />
 
   <!-- staging -->
+  <project path="bionic" name="bionic" groups="pdk" remote="staging" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="staging" />
   <project path="frameworks/base" name="frameworks_base" remote="staging" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="staging" />
@@ -41,7 +42,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="gzosp" />
