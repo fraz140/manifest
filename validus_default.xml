@@ -34,7 +34,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="bionic" name="bionic" groups="pdk" remote="val" />
   <project path="external/DUtils" name="external_DUtils" remote="val" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="val" />
   <project path="frameworks/base" name="frameworks_base" remote="val" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="val" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="val" />
@@ -45,7 +47,6 @@
   <project path="vendor/validus" name="vendor_validus" remote="val" />
 
   <!-- GZOSP -->
-  <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="gzosp" />
@@ -64,7 +65,6 @@
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="gzosp" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gzosp" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
   <project path="hardware/gzosp/interfaces" name="hardware_gzosp_interfaces" remote="gzosp" >
