@@ -50,6 +50,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="val" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="val" />
   <project path="system/core" name="system_core" remote="val" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="val" />
   <project path="vendor/validus" name="vendor_validus" remote="val" />
 
   <!-- GZOSP -->
@@ -98,7 +99,6 @@
   <project path="system/media" name="system_media" groups="pdk" remote="gzosp" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="gzosp" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="gzosp" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="gzosp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
 
 </manifest>
