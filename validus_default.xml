@@ -43,6 +43,9 @@
   <project path="system/core" name="system_core" groups="pdk" remote="val" />
   <project path="vendor/validus" name="vendor_validus" remote="val" />
 
+  <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="val" />
+  <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="val" />
+
   <!-- GZOSP -->
   <project path="art" name="art" groups="pdk" remote="gzosp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
