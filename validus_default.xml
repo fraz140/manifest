@@ -39,6 +39,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="val" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="val" />  
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="val" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="val" />
   <project path="packages/apps/WolvesDen" name="packages_apps_WolvesDen" remote="val" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="val" />  
   <project path="system/core" name="system_core" groups="pdk" remote="val" />
