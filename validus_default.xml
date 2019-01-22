@@ -46,8 +46,10 @@
   <project path="system/core" name="system_core" groups="pdk" remote="val" />
   <project path="vendor/validus" name="vendor_validus" remote="val" />
 
+  <project path="external/DUI" name="external_DUI" remote="val" />
+  <!--
   <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="val" />
-  <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="val" />
+  <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="val" /> -->
 
   <!-- GZOSP -->
   <project path="art" name="art" groups="pdk" remote="gzosp" />
