@@ -38,7 +38,8 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="val" />
   <project path="frameworks/opt/jamesdsp" name="frameworks_opt_jamesdsp" remote="val" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="val" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="val" />  
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="val" />
+  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="val" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="val" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="val" />
   <project path="packages/apps/WolvesDen" name="packages_apps_WolvesDen" remote="val" />
