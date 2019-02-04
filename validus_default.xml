@@ -44,6 +44,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="val" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="val" />
   <project path="packages/apps/WolvesDen" name="packages_apps_WolvesDen" remote="val" />
+  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="val" revision="9.0" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="val" />  
   <project path="system/core" name="system_core" groups="pdk" remote="val" />
   <project path="vendor/validus" name="vendor_validus" remote="val" />
