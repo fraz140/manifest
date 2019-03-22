@@ -27,7 +27,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong"  remote="val" >
+  <project path="build/soong" name="build_soong" remote="val" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -48,6 +48,7 @@
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="val" revision="9.0" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="val" />  
   <project path="system/core" name="system_core" groups="pdk" remote="val" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="val" />
   <project path="vendor/validus" name="vendor_validus" remote="val" />
 
   <project path="external/DUI" name="external_DUI" remote="val" />
@@ -88,7 +89,6 @@
   <project path="system/netd" name="system_netd" groups="pdk" remote="gzosp" />
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="gzosp" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="gzosp" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
 
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="gzosp" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk-qcom" remote="gzosp" />
