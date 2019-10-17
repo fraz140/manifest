@@ -17,7 +17,7 @@
            sync-j="8" />
 
   <!-- GZOSP -->
-  <project path="manifest" name="manifest" remote="val" />
+  <project path="manifest" name="manifest" remote="val" revision="10.0-test" />
   <project path="build/make" name="build" remote="val" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -35,15 +35,15 @@
   <!-- VALIDUS -->
   <project path="bionic" name="bionic" remote="val" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="val" />
-  <project path="frameworks/base" name="frameworks_base" remote="val" />
+  <project path="frameworks/base" name="frameworks_base" remote="val" revision="10.0-test" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="val" />
   <project path="hardware/gzosp/interfaces" name="hardware_gzosp_interfaces" remote="val" />
-  <project path="packages/apps/FunHouse" name="packages_apps_FunHouse" groups="pdk-fs" remote="val" />
+  <project path="packages/apps/FunHouse" name="packages_apps_FunHouse" groups="pdk-fs" remote="val" revision="10.0-test" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="val" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="val" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="val" revision="10.0-test" />
   <project path="system/core" name="system_core" groups="pdk" remote="val" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="val" />
-  <project path="vendor/validus" name="vendor_validus" remote="val" />
+  <project path="vendor/validus" name="vendor_validus" remote="val" revision="10.0-test" />
 
   <!-- GZOSP -->
   <project path="art" name="art" groups="pdk" remote="gzosp" />
@@ -51,7 +51,6 @@
   <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="gzosp" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="gzosp" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
-  <project path="external/json-c" name="external_json-c" remote="gzosp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
