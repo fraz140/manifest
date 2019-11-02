@@ -44,6 +44,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="val" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="val" />
   <project path="vendor/validus" name="vendor_validus" remote="val" revision="10.0-test" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="val" />
 
   <!-- GZOSP -->
   <project path="art" name="art" groups="pdk" remote="gzosp" />
@@ -72,7 +73,6 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="system/bt" name="system_bt" remote="gzosp" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
 
   <!-- Qcom -->
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="gzosp" />
