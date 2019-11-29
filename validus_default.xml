@@ -18,6 +18,7 @@
 
   <!-- GZOSP -->
   <project path="manifest" name="manifest" remote="val" />
+  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="gzosp" />
   <project path="build/make" name="build" remote="val" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -30,7 +31,6 @@
   <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="val" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="gzosp" />
   </project>
 
   <!-- VALIDUS -->
